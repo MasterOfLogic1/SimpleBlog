@@ -12,7 +12,7 @@ namespace SimpleBlog.Controllers
         {
             // This is where you would normally retrieve posts from a database
             // For now, we will return a simple view
-            return Content("Hello World");
+            return View();
         }
     }
 }
